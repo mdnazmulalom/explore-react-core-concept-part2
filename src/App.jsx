@@ -1,5 +1,6 @@
 import './App.css'
 import './Button'
+import Counter from './Counter'
 
 function App() {
 
@@ -20,7 +21,9 @@ function App() {
   }
 
   return (
+
     <>
+    <Counter></Counter>
       <h1> React Core Concept Part-2</h1>
       {/* <button onClick={handleClick}> SUBMIT</button> */}
 
